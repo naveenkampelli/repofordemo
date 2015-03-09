@@ -91,9 +91,20 @@ Kind regards,
   }
 }
  
-Facebook Feed
+//Facebook Feed
 
-Line 145 of spire_social_media.block 
+Line 145 of spire_social_media.block spire_profile/modules/custom/spire_social_media 
 
 Change the ‘feed’ to ‘posts’
 
+//Blue Header for background image tile
+
+Line 43 profiles/spire_profile/themes/custom/spire/sass/modules/_tile-background-image.scss
+
+.tile.tile-type-background-image.title-style-blue-block,
+.tile.tile-type-background-image.title-style-orange-block {
+  > .height-equalizable > .tile-inner > .text-wrapper >
+  header {
+    position: absolute;
+    width:100% //Added 100% to the tile
+  }
