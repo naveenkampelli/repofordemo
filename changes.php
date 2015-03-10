@@ -132,3 +132,12 @@ Line 43 profiles/spire_profile/themes/custom/spire/sass/modules/_tile-background
     position: absolute;
     width:100% //Added 100% to the tile
   }
+
+//Media center Redirects 302
+From	To
+http://www.edfenergy.com/media-centre/	http://newsroom.edfenergy.com/
+http://www.edfenergy.com/media-centre/contacts-cross-business/	http://newsroom.edfenergy.com/content/default.aspx?NewsAreaId=30
+http://www.edfenergy.com/media-centre/press-news/index.shtml	http://newsroom.edfenergy.com/content/default.aspx?NewsAreaId=2
+http://www.edfenergy.com/media-centre/image-library/index.shtml	http://newsroom.edfenergy.com/imagelibrary/default.aspx?NewsAreaId=28
+http://www.edfenergy.com/media-centre/media-awards/index.shtml	http://newsroom.edfenergy.com/content/default.aspx?NewsAreaId=20
+
