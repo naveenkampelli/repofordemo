@@ -25,6 +25,7 @@ Spire_users.module (spire_profile/modules/custom/spire_users)
  * @global type $base_url
  * @return string Function to get the current environment
  */
+ /* Previous code
 function current_environment()
 {
   global $base_url;
@@ -36,6 +37,29 @@ function current_environment()
   }
   else{
     $env=strtoupper($output[0]);
+  }
+  }
+  else
+  {
+    $env='';
+  }
+  return $env;
+  
+}
+*/
+// Modified code
+function current_environment()
+{
+  global $base_url;
+  $output=Null;
+  preg_match('/\/\/(.*?)\./',$base_url,$output);
+  if(!empty($output[1])){
+  if(strcasecmp($output[1],"www")===0)
+  {
+    $env="LIVE";
+  }
+  else{
+    $env=strtoupper($output[1]);
   }
   }
   else
@@ -81,7 +105,7 @@ It\'s easy to get back into your account. Just click on this link or copy and pa
 
 This link will take you to a page that lets you set a new password. It will expire after a day if you don’t use it - but don’t worry as you can always request another one the same way you requested this one. 
 
-If you continue to have problems accessing the CMS, please contact 777 or report your issue online with IT Service Point, making sure to specify that your issue relates to edfnergy.com and should go to the Spire Infosys team. 
+If you continue to have problems accessing the CMS, please contact 777 or report your issue online with IT Service Point, making sure to specify that your issue relates to edfenergy.com and should go to the Spire Infosys team. 
 
 For more general questions or guidelines, visit MyCampus for all the latest guides to the CMS. Or if you have access to Yammer, the Spire Content Community Workspace is a great forum to read and post questions, comments or tips and discuss them with other CMS users. The group moderator will also quickly answer any questions you post in here, so it\'s quick and easy.  
 
