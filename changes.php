@@ -134,8 +134,11 @@ Line 43 profiles/spire_profile/themes/custom/spire/sass/modules/_tile-background
   }
 
 //Media center Redirects 302
+//spire-puppet/master/modules/profile/templates/varnish.erb
 From	To
+//301 redirec exists /media-centre  http://newsroom.edfenergy.com/content/default.aspx?NewsAreaId=2
 http://www.edfenergy.com/media-centre/	http://newsroom.edfenergy.com/
+
 http://www.edfenergy.com/media-centre/contacts-cross-business/	http://newsroom.edfenergy.com/content/default.aspx?NewsAreaId=30
 http://www.edfenergy.com/media-centre/press-news/index.shtml	http://newsroom.edfenergy.com/content/default.aspx?NewsAreaId=2
 http://www.edfenergy.com/media-centre/image-library/index.shtml	http://newsroom.edfenergy.com/imagelibrary/default.aspx?NewsAreaId=28
