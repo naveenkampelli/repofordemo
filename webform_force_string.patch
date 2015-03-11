@@ -1,0 +1,32 @@
+diff --git a/includes/exporters/webform_exporter_delimited.inc b/includes/exporters/webform_exporter_delimited.inc
+index 1f523a3..cb4676b 100644
+--- a/includes/exporters/webform_exporter_delimited.inc
++++ b/includes/exporters/webform_exporter_delimited.inc
+@@ -18,7 +18,13 @@ class webform_exporter_delimited extends webform_exporter {
+   function add_row(&$file_handle, $data, $row_count) {
+     foreach ($data as $key => $value) {
+       // Escape inner quotes and wrap all contents in new quotes.
++      $is_numeric = is_numeric($data[$key]);
+       $data[$key] = '"' . str_replace('"', '""', $data[$key]) . '"';
++      // We force numbers to be formatted as String in Excel.
++      // This makes the CSV unreadable for most other applications =(.
++      if ($is_numeric) {
++        $data[$key] = '=' . $data[$key];
++      }
+ 
+       // Remove <script> tags, which mysteriously cause Excel not to import.
+       $data[$key] = preg_replace('!<(/?script.*?)>!', '[$1]', $data[$key]);
+diff --git a/includes/exporters/webform_exporter_excel_xlsx.inc b/includes/exporters/webform_exporter_excel_xlsx.inc
+index 5303e40..f43cca3 100644
+--- a/includes/exporters/webform_exporter_excel_xlsx.inc
++++ b/includes/exporters/webform_exporter_excel_xlsx.inc
+@@ -21,7 +21,8 @@ class webform_exporter_excel_xlsx extends webform_exporter {
+       if (empty($value) && strlen($value) === 0) {
+         // Skip empty cells.
+       }
+-      elseif (is_numeric($value)) {
++      // CM Hack: Force numeric fields to be formatted as Strings in Excel.
++      elseif (FALSE && is_numeric($value)) {
+         $output .= '<c r="' . $cell_position . '"><v>';
+         $output .= $value;
+         $output .= '</v></c>';
