@@ -1,0 +1,21 @@
+diff --git a/js/webform.js b/js/webform.js
+index e33a28c..e3dde8c 100644
+--- a/js/webform.js
++++ b/js/webform.js
+@@ -156,7 +156,15 @@ Drupal.webform.conditionalCheck = function(e) {
+       }
+ 
+       if (showComponent) {
+-        $form.find('.' + ruleGroup['target']).find('.webform-conditional-disabled').removeAttr('disabled').removeClass('webform-conditional-disabled').end().show();
++        var elements = $form.find('.' + ruleGroup['target']).find('.webform-conditional-disabled');
++        elements.each( function() {
++          if (this.spireEnable) {
++            this.spireEnable();
++          }
++        });
++        elements.removeAttr('disabled').removeClass('webform-conditional-disabled').end().show();
++
++
+       }
+       else {
+         $form.find('.' + ruleGroup['target']).find(':input').attr('disabled', true).addClass('webform-conditional-disabled').end().hide();
