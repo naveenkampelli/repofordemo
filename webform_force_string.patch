@@ -20,11 +20,11 @@ diff --git a/includes/exporters/webform_exporter_excel_xlsx.inc b/includes/expor
 index 5303e40..f43cca3 100644
 --- a/includes/exporters/webform_exporter_excel_xlsx.inc
 +++ b/includes/exporters/webform_exporter_excel_xlsx.inc
-@@ -21,7 +21,8 @@ class webform_exporter_excel_xlsx extends webform_exporter {
-       if (empty($value) && strlen($value) === 0) {
+@@ -27,7 +27,8 @@ class webform_exporter_excel_xlsx extends webform_exporter {
+       if (strlen($value) === 0) {
          // Skip empty cells.
        }
--      elseif (is_numeric($value)) {
+-      elseif (is_numeric($value) && $value[0] !== '+') {
 +      // CM Hack: Force numeric fields to be formatted as Strings in Excel.
 +      elseif (FALSE && is_numeric($value)) {
          $output .= '<c r="' . $cell_position . '"><v>';
