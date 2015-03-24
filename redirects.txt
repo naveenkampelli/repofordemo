@@ -5,3 +5,5 @@
 /media-centre/image-library/index.shtml http://newsroom.edfenergy.com/imagelibrary/default.aspx?NewsAreaId=28
 /media-centre/media-awards/index.shtml http://newsroom.edfenergy.com/content/default.aspx?NewsAreaId=20
 /fits-meter-reading /form/fits-form
+/smeswitch /content/register-interest-latest-sme-tariffs?_$ja=tsid:44771|cgn:SME|kw:smeswitch
+
