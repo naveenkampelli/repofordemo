@@ -22,4 +22,4 @@ projects[drupal][patch][] = "https://raw.githubusercontent.com/computerminds/dru
 projects[spire_profile][type] = profile
 projects[spire_profile][download][type] = git
 projects[spire_profile][download][url] = git@github.com:computerminds/spire.git
-projects[spire_profile][download][branch] = release-3
+projects[spire_profile][download][branch] = release/1-hydrogen
