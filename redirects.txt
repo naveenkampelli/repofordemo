@@ -6,4 +6,6 @@
 /media-centre/media-awards/index.shtml http://newsroom.edfenergy.com/content/default.aspx?NewsAreaId=20
 /fits-meter-reading /form/fits-form
 /smeswitch /content/register-interest-latest-sme-tariffs?_$ja=tsid:44771|cgn:SME|kw:smeswitch
+/smeswitch     /sme-business/switch-to-edf-energy/register-interest-latest-tariffs?_%24ja=tsid%3A44771%7Ccgn%3ASME%7Ckw%3Asmeswitch
+
 
