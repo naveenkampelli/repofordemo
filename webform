@@ -1,7 +1,7 @@
 function spire_webform_webform_submission_render_alter(&$renderable) {
-  print "<pre>";
+  echo "Before";
   print_r($renderable);
-  print "</pre>";
+  echo "Before";
   // We only run this on the preview page of webforms.
   if (isset($renderable['#node']->webform['preview'])) {
     foreach (element_children($renderable) as $key) {
@@ -24,23 +24,13 @@ function spire_webform_webform_submission_render_alter(&$renderable) {
       if (isset($renderable[$key]['#type']) && $renderable[$key]['#type'] === 'fieldset') {
         $hasfield = FALSE;
         foreach (element_children($renderable[$key]) as $key2) {
-         print "component type".$renderable[$key]['#webform_component']['type'];
          // If the textfield is empty.
           if (isset($renderable[$key][$key2]['#value'])) {
-            print "<pre>";
-            print_r($renderable[$key][$key2]['#value']);
-            print "</pre>";
             if ($renderable[$key][$key2]['#value'] == '') {
-              print "<pre>";
-              print_r($renderable[$key][$key2]['#value']);
-              print "</pre>";
-             unset($renderable[$key][$key2]);
+              unset($renderable[$key][$key2]);
             // If select lists, checkboxes, etc. are empty.
             }
             elseif (is_array($renderable[$key][$key2]['#value']) && $renderable[$key][$key2]['#value'][0] == '') {
-              print "<pre>";
-              print_r($renderable[$key][$key2]['#value']);
-              print "</pre>";
               unset($renderable[$key][$key2]);
             }
             else {
@@ -50,16 +40,12 @@ function spire_webform_webform_submission_render_alter(&$renderable) {
         }
          // If the fieldset has no field, remove it.
         if ($hasfield == FALSE) {
-          print "<pre>";
-          print_r($renderable[$key]);
-          print "</pre>";
           unset($renderable[$key]);
         }
       }
-       print "<end>";
- 
-  print_r($renderable);
-  print "</end>";
+       echo "After";
+       print_r($renderable);
+       echo "After";
   
       // Remove the page breaks.
       if (isset($renderable[$key]['#webform_component']['type']) && $renderable[$key]['#webform_component']['type'] == 'pagebreak') {
