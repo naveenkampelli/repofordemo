@@ -1,37 +1,40 @@
 function spire_webform_webform_submission_render_alter(&$renderable) {
-  echo "Before";
-  print_r($renderable);
-  echo "Before";
   // We only run this on the preview page of webforms.
   if (isset($renderable['#node']->webform['preview'])) {
     foreach (element_children($renderable) as $key) {
       // If the textfield is empty.
+        print "<pre>";
+        print_r($renderable);
+        print "</pre>";
+        print "component Type".$renderable[$key]['#type'];
       if (isset($renderable[$key]['#value'])) {
-       
-        if ($renderable[$key]['#value'] == '') {
-          unset($renderable[$key]);
-          // If select lists, checkboxes, etc. are empty.
-        }
-        elseif (is_array($renderable[$key]['#value'])) {
-         
+        if (is_array($renderable[$key]['#value'])) {
           if ($renderable[$key]['#value'][0] == '') {
             unset($renderable[$key]);
           }
         }
+        elseif ($renderable[$key]['#value'] == '') {
+          unset($renderable[$key]);
+          // If select lists, checkboxes, etc. are empty.
+        }
+        elseif ($renderable[$key]['#type'] === 'fieldset') {
+          //do nothing
+        }
       }
+      
+      /*
       // We also need to handle fieldsets.
- 
       if (isset($renderable[$key]['#type']) && $renderable[$key]['#type'] === 'fieldset') {
         $hasfield = FALSE;
         foreach (element_children($renderable[$key]) as $key2) {
-         // If the textfield is empty.
+          // If the textfield is empty.
           if (isset($renderable[$key][$key2]['#value'])) {
             if ($renderable[$key][$key2]['#value'] == '') {
               unset($renderable[$key][$key2]);
             // If select lists, checkboxes, etc. are empty.
             }
             elseif (is_array($renderable[$key][$key2]['#value']) && $renderable[$key][$key2]['#value'][0] == '') {
-              unset($renderable[$key][$key2]);
+                unset($renderable[$key][$key2]);
             }
             else {
               $hasfield = TRUE;
@@ -42,14 +45,12 @@ function spire_webform_webform_submission_render_alter(&$renderable) {
         if ($hasfield == FALSE) {
           unset($renderable[$key]);
         }
-      }
-       echo "After";
-       print_r($renderable);
-       echo "After";
-  
+      }*/
+      
       // Remove the page breaks.
       if (isset($renderable[$key]['#webform_component']['type']) && $renderable[$key]['#webform_component']['type'] == 'pagebreak') {
         unset($renderable[$key]);
       }
     }
   }
+}
