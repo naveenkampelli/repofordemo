@@ -3,22 +3,52 @@ function spire_webform_webform_submission_render_alter(&$renderable) {
   if (isset($renderable['#node']->webform['preview'])) {
     foreach (element_children($renderable) as $key) {
       // If the textfield is empty.
-        print "<pre>";
-        print_r($renderable);
-        print "</pre>";
-        print "component Type".$renderable[$key]['#type'];
+      
       if (isset($renderable[$key]['#value'])) {
         if (is_array($renderable[$key]['#value'])) {
-          if ($renderable[$key]['#value'][0] == '') {
+          //array_filter() removes all values from array which are equal to null, 0 or false
+          $arr=array_filter($renderable[$key]['#value']);
+          if(empty($arr)) {
+            print "one:".$renderable[$key]['#value']['day'];
+            print "<pre>";
+            print_r($renderable[$key]['#value']);
+            print "</pre>";
             unset($renderable[$key]);
           }
         }
         elseif ($renderable[$key]['#value'] == '') {
+          print "Tw0:".$renderable[$key]['#value'];
           unset($renderable[$key]);
           // If select lists, checkboxes, etc. are empty.
         }
-        elseif ($renderable[$key]['#type'] === 'fieldset') {
-          //do nothing
+        
+      }
+      // We also need to handle fieldsets.
+      if (isset($renderable[$key]['#type']) && $renderable[$key]['#type'] === 'fieldset') {
+        $hasfield = FALSE;
+        foreach (element_children($renderable[$key]) as $key2) {
+          // If the textfield is empty.
+          if (isset($renderable[$key][$key2]['#value'])) {
+            if (is_array($renderable[$key][$key2]['#value'])){
+              //array_filter() removes all values from array which are equal to null, 0 or false
+              $arr=array_filter($renderable[$key][$key2]['#value']);
+              if(empty($arr))
+              {
+                unset($renderable[$key][$key2]);
+              }
+            }
+            elseif ($renderable[$key][$key2]['#value'] == '') {
+              unset($renderable[$key][$key2]);
+            // If select lists, checkboxes, etc. are empty.
+            }
+            else {
+              $hasfield = TRUE;
+            }
+          }
+        }
+         // If the fieldset has no field, remove it.
+        if ($hasfield == FALSE) {
+          unset($renderable[$key]);
         }
       }
       
@@ -45,7 +75,9 @@ function spire_webform_webform_submission_render_alter(&$renderable) {
         if ($hasfield == FALSE) {
           unset($renderable[$key]);
         }
-      }*/
+      }
+       * */
+       
       
       // Remove the page breaks.
       if (isset($renderable[$key]['#webform_component']['type']) && $renderable[$key]['#webform_component']['type'] == 'pagebreak') {
