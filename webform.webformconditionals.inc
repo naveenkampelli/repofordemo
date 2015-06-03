@@ -229,7 +229,9 @@ class WebformConditionals {
         }
       }
       else {
+        if(user_is_logged_in()) {
          drupal_set_message(t('This form is improperly configured. Contact the administrator.'), 'warning');
+        }
       }
     }
   }
