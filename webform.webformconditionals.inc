@@ -51,7 +51,7 @@ class WebformConditionals {
     $conditionals = $this->node->webform['conditionals'];
     $errors = array();
 
-    // Generate a component to condional map for conditional targets.
+    // Generate a componen to condional map for conditional targets.
     $cid_to_target_rgid = array();
     foreach ($conditionals as $rgid => $conditional) {
       $target_id = $conditional['target'];
