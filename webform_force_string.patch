@@ -29,4 +29,4 @@ index 5303e40..f43cca3 100644
 +      elseif (FALSE && is_numeric($value)) {
          $output .= '<c r="' . $cell_position . '"><v>';
          $output .= $value;
-         $output .= '</v></c>';
+         $output .= '</v><//c>';
