@@ -1,0 +1,2692 @@
+131230 10:49:05 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+131230 10:49:05 [Note] Plugin 'FEDERATED' is disabled.
+131230 10:49:05 InnoDB: The InnoDB memory heap is disabled
+131230 10:49:05 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+131230 10:49:05 InnoDB: Compressed tables use zlib 1.2.3
+131230 10:49:05 InnoDB: Using Linux native AIO
+131230 10:49:05 InnoDB: Initializing buffer pool, size = 128.0M
+131230 10:49:06 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file ./ibdata1 did not exist:
+InnoDB: a new database to be created!
+131230 10:49:06  InnoDB: Setting file ./ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+131230 10:49:06  InnoDB: Log file ./ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+131230 10:49:06  InnoDB: Log file ./ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+131230 10:49:06  InnoDB: Waiting for the background threads to start
+131230 10:49:07 InnoDB: 5.5.35 started; log sequence number 0
+131230 10:49:07 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+131230 10:49:07 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+131230 10:49:07 [Note] Server socket created on IP: '0.0.0.0'.
+131230 10:49:07 [Warning] 'user' entry 'root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+131230 10:49:07 [Warning] 'user' entry '@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+131230 10:49:07 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+131230 10:49:07 [Note] Event Scheduler: Loaded 0 events
+131230 10:49:07 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+131230 10:49:23 [Warning] 'user' entry 'root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+131230 10:49:23 [Warning] 'user' entry '@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+131230 10:49:23 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+131230 10:49:26 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+131230 11:14:46 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+131230 11:16:06 [Note] /usr/libexec/mysqld: Normal shutdown
+
+131230 11:16:06 [Note] Event Scheduler: Purging the queue. 0 events
+131230 11:16:06  InnoDB: Starting shutdown...
+131230 11:16:07  InnoDB: Shutdown completed; log sequence number 1595675
+131230 11:16:07 [Note] /usr/libexec/mysqld: Shutdown complete
+
+131230 17:16:07 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+131230 17:16:07 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+131230 17:16:07 [Note] Plugin 'FEDERATED' is disabled.
+131230 17:16:07 InnoDB: The InnoDB memory heap is disabled
+131230 17:16:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+131230 17:16:07 InnoDB: Compressed tables use zlib 1.2.3
+131230 17:16:07 InnoDB: Using Linux native AIO
+131230 17:16:07 InnoDB: Initializing buffer pool, size = 128.0M
+131230 17:16:07 InnoDB: Completed initialization of buffer pool
+131230 17:16:07 InnoDB: highest supported file format is Barracuda.
+131230 17:16:07  InnoDB: Waiting for the background threads to start
+131230 17:16:08 InnoDB: 5.5.35 started; log sequence number 1595675
+131230 17:16:08 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+131230 17:16:08 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+131230 17:16:08 [Note] Server socket created on IP: '0.0.0.0'.
+131230 17:16:08 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+131230 17:16:08 [Note] Event Scheduler: Loaded 0 events
+131230 17:16:08 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+131231  9:52:35 [Note] /usr/libexec/mysqld: Normal shutdown
+
+131231  9:52:35 [Note] Event Scheduler: Purging the queue. 0 events
+131231  9:52:35  InnoDB: Starting shutdown...
+131231  9:52:36  InnoDB: Shutdown completed; log sequence number 1595675
+131231  9:52:36 [Note] /usr/libexec/mysqld: Shutdown complete
+
+131231 09:52:36 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+140107 14:40:05 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+140107 14:40:05 [Note] Plugin 'FEDERATED' is disabled.
+140107 14:40:05 InnoDB: The InnoDB memory heap is disabled
+140107 14:40:05 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140107 14:40:05 InnoDB: Compressed tables use zlib 1.2.3
+140107 14:40:05 InnoDB: Using Linux native AIO
+140107 14:40:05 InnoDB: Initializing buffer pool, size = 128.0M
+140107 14:40:05 InnoDB: Completed initialization of buffer pool
+140107 14:40:06 InnoDB: highest supported file format is Barracuda.
+140107 14:40:06  InnoDB: Waiting for the background threads to start
+140107 14:40:07 InnoDB: 5.5.35 started; log sequence number 1595675
+140107 14:40:07 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+140107 14:40:07 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+140107 14:40:07 [Note] Server socket created on IP: '192.168.100.118'.
+140107 14:40:07 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+140107 14:40:07 [Note] Event Scheduler: Loaded 0 events
+140107 14:40:07 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+140107 14:55:50 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+140107 14:55:50 [Note] Plugin 'FEDERATED' is disabled.
+140107 14:55:50 InnoDB: The InnoDB memory heap is disabled
+140107 14:55:50 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140107 14:55:50 InnoDB: Compressed tables use zlib 1.2.3
+140107 14:55:50 InnoDB: Using Linux native AIO
+140107 14:55:50 InnoDB: Initializing buffer pool, size = 128.0M
+140107 14:55:50 InnoDB: Completed initialization of buffer pool
+140107 14:55:50 InnoDB: highest supported file format is Barracuda.
+140107 14:55:50  InnoDB: Waiting for the background threads to start
+140107 14:55:51 InnoDB: 5.5.35 started; log sequence number 1595675
+140107 14:55:51 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+140107 14:55:51 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+140107 14:55:51 [Note] Server socket created on IP: '192.168.100.118'.
+140107 14:55:51 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+140107 14:55:51 [Note] Event Scheduler: Loaded 0 events
+140107 14:55:51 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+140107 15:07:21 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140107 15:07:21 [Note] Event Scheduler: Purging the queue. 0 events
+140107 15:07:21  InnoDB: Starting shutdown...
+140107 15:07:22  InnoDB: Shutdown completed; log sequence number 1595675
+140107 15:07:22 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140107 15:07:22 mysqld_safe mysqld from pid file /var/run/cluster/mysql/mysql:mysql-svc.pid ended
+140107 15:21:00 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+140107 15:21:00 [Note] Plugin 'FEDERATED' is disabled.
+140107 15:21:00 InnoDB: The InnoDB memory heap is disabled
+140107 15:21:00 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140107 15:21:00 InnoDB: Compressed tables use zlib 1.2.3
+140107 15:21:00 InnoDB: Using Linux native AIO
+140107 15:21:00 InnoDB: Initializing buffer pool, size = 128.0M
+140107 15:21:00 InnoDB: Completed initialization of buffer pool
+140107 15:21:01 InnoDB: highest supported file format is Barracuda.
+140107 15:21:01  InnoDB: Waiting for the background threads to start
+140107 15:21:02 InnoDB: 5.5.35 started; log sequence number 1595675
+140107 15:21:02 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+140107 15:21:02 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+140107 15:21:02 [Note] Server socket created on IP: '192.168.100.118'.
+140107 15:21:02 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+140107 15:21:02 [Note] Event Scheduler: Loaded 0 events
+140107 15:21:02 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+140107 15:50:52 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+140107 15:50:52 [Note] Plugin 'FEDERATED' is disabled.
+140107 15:50:52 InnoDB: The InnoDB memory heap is disabled
+140107 15:50:52 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140107 15:50:52 InnoDB: Compressed tables use zlib 1.2.3
+140107 15:50:52 InnoDB: Using Linux native AIO
+140107 15:50:52 InnoDB: Initializing buffer pool, size = 128.0M
+140107 15:50:52 InnoDB: Completed initialization of buffer pool
+140107 15:50:52 InnoDB: highest supported file format is Barracuda.
+140107 15:50:52  InnoDB: Waiting for the background threads to start
+140107 15:50:53 InnoDB: 5.5.35 started; log sequence number 1595675
+140107 15:50:53 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+140107 15:50:53 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+140107 15:50:53 [Note] Server socket created on IP: '192.168.100.118'.
+140107 15:50:53 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+140107 15:50:53 [Note] Event Scheduler: Loaded 0 events
+140107 15:50:53 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+140108 16:39:30 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140108 16:39:30 [Note] Event Scheduler: Purging the queue. 0 events
+140108 16:39:30  InnoDB: Starting shutdown...
+140108 16:39:31  InnoDB: Shutdown completed; log sequence number 1595675
+140108 16:39:31 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140108 16:39:31 mysqld_safe mysqld from pid file /var/run/cluster/mysql/mysql:mysql-svc.pid ended
+140108 16:40:41 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+140108 16:40:41 [Note] Plugin 'FEDERATED' is disabled.
+140108 16:40:41 InnoDB: The InnoDB memory heap is disabled
+140108 16:40:41 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140108 16:40:41 InnoDB: Compressed tables use zlib 1.2.3
+140108 16:40:41 InnoDB: Using Linux native AIO
+140108 16:40:41 InnoDB: Initializing buffer pool, size = 128.0M
+140108 16:40:41 InnoDB: Completed initialization of buffer pool
+140108 16:40:41 InnoDB: highest supported file format is Barracuda.
+140108 16:40:41  InnoDB: Waiting for the background threads to start
+140108 16:40:42 InnoDB: 5.5.35 started; log sequence number 1595675
+140108 16:40:42 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+140108 16:40:42 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+140108 16:40:42 [Note] Server socket created on IP: '192.168.100.118'.
+140108 16:40:42 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+140108 16:40:42 [Note] Event Scheduler: Loaded 0 events
+140108 16:40:42 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+140108 16:40:48 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140108 16:40:48 [Note] Event Scheduler: Purging the queue. 0 events
+140108 16:40:48  InnoDB: Starting shutdown...
+140108 16:40:49  InnoDB: Shutdown completed; log sequence number 1595675
+140108 16:40:49 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140108 16:40:49 mysqld_safe mysqld from pid file /var/run/cluster/mysql/mysql:mysql-svc.pid ended
+140108 16:44:27 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+140108 16:44:27 [Note] Plugin 'FEDERATED' is disabled.
+140108 16:44:27 InnoDB: The InnoDB memory heap is disabled
+140108 16:44:27 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140108 16:44:27 InnoDB: Compressed tables use zlib 1.2.3
+140108 16:44:27 InnoDB: Using Linux native AIO
+140108 16:44:27 InnoDB: Initializing buffer pool, size = 128.0M
+140108 16:44:27 InnoDB: Completed initialization of buffer pool
+140108 16:44:27 InnoDB: highest supported file format is Barracuda.
+140108 16:44:27  InnoDB: Waiting for the background threads to start
+140108 16:44:28 InnoDB: 5.5.35 started; log sequence number 1595675
+140108 16:44:28 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+140108 16:44:28 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+140108 16:44:28 [Note] Server socket created on IP: '192.168.100.118'.
+140108 16:44:28 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+140108 16:44:28 [Note] Event Scheduler: Loaded 0 events
+140108 16:44:28 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+140108 16:55:54 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+140108 16:55:54 [Note] Plugin 'FEDERATED' is disabled.
+140108 16:55:54 InnoDB: The InnoDB memory heap is disabled
+140108 16:55:54 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140108 16:55:54 InnoDB: Compressed tables use zlib 1.2.3
+140108 16:55:54 InnoDB: Using Linux native AIO
+140108 16:55:54 InnoDB: Initializing buffer pool, size = 128.0M
+140108 16:55:54 InnoDB: Completed initialization of buffer pool
+140108 16:55:54 InnoDB: highest supported file format is Barracuda.
+140108 16:55:54  InnoDB: Waiting for the background threads to start
+140108 16:55:55 InnoDB: 5.5.35 started; log sequence number 1595675
+140108 16:55:55 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+140108 16:55:55 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+140108 16:55:55 [Note] Server socket created on IP: '192.168.100.118'.
+140108 16:55:55 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+140108 16:55:55 [Note] Event Scheduler: Loaded 0 events
+140108 16:55:55 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+140108 17:01:59 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+140108 17:01:59 [Note] Plugin 'FEDERATED' is disabled.
+140108 17:01:59 InnoDB: The InnoDB memory heap is disabled
+140108 17:01:59 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140108 17:01:59 InnoDB: Compressed tables use zlib 1.2.3
+140108 17:01:59 InnoDB: Using Linux native AIO
+140108 17:01:59 InnoDB: Initializing buffer pool, size = 128.0M
+140108 17:01:59 InnoDB: Completed initialization of buffer pool
+140108 17:01:59 InnoDB: highest supported file format is Barracuda.
+140108 17:01:59  InnoDB: Waiting for the background threads to start
+140108 17:02:00 InnoDB: 5.5.35 started; log sequence number 1595675
+140108 17:02:00 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+140108 17:02:00 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+140108 17:02:00 [Note] Server socket created on IP: '192.168.100.118'.
+140108 17:02:00 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+140108 17:02:00 [Note] Event Scheduler: Loaded 0 events
+140108 17:02:00 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.35'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+140108 17:02:32 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140108 17:02:32 [Note] Event Scheduler: Purging the queue. 0 events
+140108 17:02:32  InnoDB: Starting shutdown...
+140108 17:02:33  InnoDB: Shutdown completed; log sequence number 1595675
+140108 17:02:33 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140108 17:02:33 mysqld_safe mysqld from pid file /var/run/cluster/mysql/mysql:mysql-svc.pid ended
+140521 00:30:21 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140521  0:30:21 [Note] Plugin 'FEDERATED' is disabled.
+/usr/libexec/mysqld: Table 'mysql.plugin' doesn't exist
+140521  0:30:21 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+140521  0:30:21 InnoDB: The InnoDB memory heap is disabled
+140521  0:30:21 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140521  0:30:21 InnoDB: Compressed tables use zlib 1.2.3
+140521  0:30:21 InnoDB: Using Linux native AIO
+140521  0:30:21 InnoDB: Initializing buffer pool, size = 128.0M
+140521  0:30:21 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file ./ibdata1 did not exist:
+InnoDB: a new database to be created!
+140521  0:30:21  InnoDB: Setting file ./ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+140521  0:30:21  InnoDB: Log file ./ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+140521  0:30:21  InnoDB: Log file ./ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+140521  0:30:21  InnoDB: Waiting for the background threads to start
+140521  0:30:22 InnoDB: 5.5.37 started; log sequence number 0
+140521  0:30:22 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+140521  0:30:22 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+140521  0:30:22 [Note] Server socket created on IP: '192.168.100.118'.
+140521  0:30:22 [ERROR] Fatal error: Can't open and lock privilege tables: Table 'mysql.host' doesn't exist
+140521 00:30:22 mysqld_safe mysqld from pid file /var/run/cluster/mysql/mysql:mysql-svc.pid ended
+140521 00:50:27 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+140521  0:50:27 [Note] Plugin 'FEDERATED' is disabled.
+140521  0:50:27 InnoDB: The InnoDB memory heap is disabled
+140521  0:50:27 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140521  0:50:27 InnoDB: Compressed tables use zlib 1.2.3
+140521  0:50:27 InnoDB: Using Linux native AIO
+140521  0:50:27 InnoDB: Initializing buffer pool, size = 128.0M
+140521  0:50:27 InnoDB: Completed initialization of buffer pool
+140521  0:50:27 InnoDB: highest supported file format is Barracuda.
+140521  0:50:27  InnoDB: Waiting for the background threads to start
+140521  0:50:28 InnoDB: 5.5.37 started; log sequence number 16815633571
+140521  0:50:28 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+140521  0:50:28 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+140521  0:50:28 [Note] Server socket created on IP: '192.168.100.118'.
+140521  0:50:28 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+140521  0:50:28 [Note] Event Scheduler: Loaded 0 events
+140521  0:50:28 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37-log'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+140605  6:50:07 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140605  9:00:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140606  9:00:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140607  9:00:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140608  9:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140609  9:00:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140610  9:00:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140611  9:00:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140612  9:00:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140613  9:00:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140614  9:00:07 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140615  9:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140616  9:10:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140617  9:10:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140618  9:10:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140619  9:10:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140620  9:10:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140621  9:10:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140622  9:10:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140623  9:10:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140624  9:10:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140625  9:10:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140626  9:10:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140627  9:10:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140628  9:10:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140629  9:10:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140630  9:10:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140701  9:10:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140702  9:20:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140703  9:20:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140704  9:20:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140705  9:20:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140706  9:20:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140707  9:20:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140708  9:20:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140709  9:20:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140710  9:20:08 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140711  9:20:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140712  9:20:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140713  9:20:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140714  9:20:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140715  9:20:08 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140716  9:20:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140717  9:20:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140718  9:20:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140719  9:20:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140720  9:20:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140721  9:20:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140722  9:20:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140723  9:20:08 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140724  9:20:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140725  9:30:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140726  9:30:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140727  9:30:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140728  9:30:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140729  9:30:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140730  9:30:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140731  9:30:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140801  9:30:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140802  9:30:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140803  9:30:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140804  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140805  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140806  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140807  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140808  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140809  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140810  9:40:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140811  9:40:07 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140812  9:40:13 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140813  9:40:02 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140814  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140815  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140816  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140817  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140818  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140819  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140820  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140821  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140822  9:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140823  9:40:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140824  9:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140825  9:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140826  9:50:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140826 11:53:55  InnoDB: ERROR: the age of the last checkpoint is 9443232,
+InnoDB: which exceeds the log group capacity 9433498.
+InnoDB: If you are using big BLOB or TEXT rows, you must set the
+InnoDB: combined size of log files at least 10 times bigger than the
+InnoDB: largest such row.
+140827  9:50:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140828  9:50:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140828 14:06:58 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM oauth_common_token 
+WHERE ( (uid = '971') OR (csid IN  (SELECT c.csid AS csid
+FROM 
+oauth_common_provider_consumer c
+WHERE  (uid = '971') )) )
+140828 14:06:58 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM oauth_common_consumer 
+WHERE  (csid IN  (SELECT c.csid AS csid
+FROM 
+oauth_common_provider_consumer c
+WHERE  (uid = '971') ))
+140829  9:50:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140830  9:50:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140831  9:50:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140901  9:50:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140902  9:50:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140902 14:00:29  InnoDB: ERROR: the age of the last checkpoint is 9439342,
+InnoDB: which exceeds the log group capacity 9433498.
+InnoDB: If you are using big BLOB or TEXT rows, you must set the
+InnoDB: combined size of log files at least 10 times bigger than the
+InnoDB: largest such row.
+140903  6:56:35  InnoDB: ERROR: the age of the last checkpoint is 9440858,
+InnoDB: which exceeds the log group capacity 9433498.
+InnoDB: If you are using big BLOB or TEXT rows, you must set the
+InnoDB: combined size of log files at least 10 times bigger than the
+InnoDB: largest such row.
+140903  9:50:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140904  9:50:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140905  9:50:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140906  9:50:06 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140907 10:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140908 10:00:06 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140909 10:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140910 10:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140911 10:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140912 10:20:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140913 10:20:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140914 10:20:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140915 10:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140916 10:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140917 10:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140918 10:20:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140919 10:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140920 10:20:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140921 10:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140922 10:20:08 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140923 10:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140924 10:30:08 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140925 10:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140926 10:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140927 10:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140928 10:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140929 10:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+140930 10:30:06 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141001 10:40:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141002 10:40:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141003 10:40:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141004 10:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141005 10:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141006 10:40:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141007 10:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141008 10:40:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141009 10:50:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141010 10:50:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141011 10:50:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141012 10:50:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141013 10:50:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141014 11:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141015 11:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141016 11:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141017  8:08:52  InnoDB: ERROR: the age of the last checkpoint is 9439830,
+InnoDB: which exceeds the log group capacity 9433498.
+InnoDB: If you are using big BLOB or TEXT rows, you must set the
+InnoDB: combined size of log files at least 10 times bigger than the
+InnoDB: largest such row.
+141017 11:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141018 11:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141019 11:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141020 11:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141021 11:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141022 11:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141022 13:45:29 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statement is unsafe because it uses a system function that may return a different value on the slave. Statement: UPDATE menu_links SET uuid = UUID() WHERE uuid IS NULL
+141023 11:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141024 11:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141025 11:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141026 11:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141027 11:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141028 11:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141029 11:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141030 11:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141031 11:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141101 11:00:03 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141102 11:00:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141103 11:00:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141104 11:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141105 11:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141106 11:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141107 11:10:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141108 11:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141109 11:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141110 11:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141111 11:10:06 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141112 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141113 11:20:06 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141114 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141115 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141116 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141117 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141118 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141119 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141120 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141121 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141122 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141123 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141124 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141125 11:20:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141126 11:20:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141127 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141128 11:20:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141129 11:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141130 11:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141201 11:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141202 11:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141203 11:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141204 11:30:14 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141205 11:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141206 11:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141207 11:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141208 11:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141209 11:30:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141210 11:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141211 11:40:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141212 11:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141213 11:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141214 11:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141215 11:40:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141216 11:40:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141217 11:40:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141218  3:27:51 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141218  3:27:51 [Note] Event Scheduler: Purging the queue. 0 events
+141218  3:27:52  InnoDB: Starting shutdown...
+141218  3:27:52  InnoDB: Waiting for 200 pages to be flushed
+141218  3:27:53  InnoDB: Shutdown completed; log sequence number 336365730436
+141218  3:27:53 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141218 03:27:53 mysqld_safe mysqld from pid file /var/run/cluster/mysql/mysql:mysql-svc.pid ended
+141218 03:56:51 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+141218  3:56:51 [Note] Plugin 'FEDERATED' is disabled.
+141218  3:56:51 InnoDB: The InnoDB memory heap is disabled
+141218  3:56:51 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141218  3:56:51 InnoDB: Compressed tables use zlib 1.2.3
+141218  3:56:51 InnoDB: Using Linux native AIO
+141218  3:56:51 InnoDB: Initializing buffer pool, size = 128.0M
+141218  3:56:51 InnoDB: Completed initialization of buffer pool
+141218  3:56:51 InnoDB: highest supported file format is Barracuda.
+141218  3:56:53  InnoDB: Waiting for the background threads to start
+141218  3:56:54 InnoDB: 5.5.37 started; log sequence number 336365730436
+141218  3:56:54 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+141218  3:56:54 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+141218  3:56:54 [Note] Server socket created on IP: '192.168.100.118'.
+141218  3:56:54 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+141218  3:56:54 [Note] Event Scheduler: Loaded 0 events
+141218  3:56:54 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37-log'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+141218 11:50:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141219 12:00:06 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141219 16:00:30  InnoDB: ERROR: the age of the last checkpoint is 9447749,
+InnoDB: which exceeds the log group capacity 9433498.
+InnoDB: If you are using big BLOB or TEXT rows, you must set the
+InnoDB: combined size of log files at least 10 times bigger than the
+InnoDB: largest such row.
+141220 12:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141221 12:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141222 12:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141223 12:10:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141224 12:10:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141225 12:10:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141226 12:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141227 12:10:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141228 12:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141229 12:10:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141230 12:10:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+141231 12:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150101 12:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150102 12:10:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150103 12:20:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150104 12:20:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150105 12:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150106 12:30:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150107 12:30:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150108 12:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150109 12:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150110 12:30:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150111 12:40:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150112 12:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150113 12:40:05 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150114 12:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150115 12:40:04 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave. Statement: DELETE FROM linkchecker_link 
+WHERE  (lid NOT IN  (SELECT DISTINCT q1.lid AS lid
+FROM 
+(SELECT DISTINCT lb.lid AS lid
+FROM 
+linkchecker_block_custom lb UNION SELECT DISTINCT lc.lid AS lid
+FROM 
+linkchecker_comment lc UNION SELECT DISTINCT ln.lid AS lid
+FROM 
+linkchecker_node ln) q1))
+150116  3:31:41 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150116  3:31:41 [Note] Event Scheduler: Purging the queue. 0 events
+150116  3:31:42  InnoDB: Starting shutdown...
+150116  3:31:43  InnoDB: Waiting for 44 pages to be flushed
+150116  3:31:43  InnoDB: Shutdown completed; log sequence number 417981074964
+150116  3:31:44 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150116 03:31:44 mysqld_safe mysqld from pid file /var/run/cluster/mysql/mysql:mysql-svc.pid ended
+150326 03:23:08 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+150326  3:23:09 [Note] Plugin 'FEDERATED' is disabled.
+150326  3:23:09 InnoDB: The InnoDB memory heap is disabled
+150326  3:23:09 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150326  3:23:09 InnoDB: Compressed tables use zlib 1.2.3
+150326  3:23:09 InnoDB: Using Linux native AIO
+150326  3:23:09 InnoDB: Initializing buffer pool, size = 128.0M
+150326  3:23:09 InnoDB: Completed initialization of buffer pool
+150326  3:23:09 InnoDB: highest supported file format is Barracuda.
+150326  3:23:12  InnoDB: Waiting for the background threads to start
+150326  3:23:13 InnoDB: 5.5.42 started; log sequence number 645872542680
+150326  3:23:13 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+150326  3:23:13 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+150326  3:23:13 [Note] Server socket created on IP: '192.168.100.118'.
+150326  3:23:13 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+150326  3:23:13 [Note] Event Scheduler: Loaded 0 events
+150326  3:23:13 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.42-log'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+150326  3:44:01 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150326  3:44:01 [Note] Event Scheduler: Purging the queue. 0 events
+150326  3:44:03  InnoDB: Starting shutdown...
+150326  3:44:04  InnoDB: Waiting for 200 pages to be flushed
+150326  3:44:04  InnoDB: Shutdown completed; log sequence number 645918447320
+150326  3:44:04 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150326 03:44:04 mysqld_safe mysqld from pid file /var/run/cluster/mysql/mysql:mysql-svc.pid ended
+150829 01:07:38 mysqld_safe Starting mysqld daemon with databases from /san/mysql-fs/mysql
+150829  1:07:38 [Note] Plugin 'FEDERATED' is disabled.
+150829  1:07:38 InnoDB: The InnoDB memory heap is disabled
+150829  1:07:38 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150829  1:07:38 InnoDB: Compressed tables use zlib 1.2.3
+150829  1:07:38 InnoDB: Using Linux native AIO
+150829  1:07:38 InnoDB: Initializing buffer pool, size = 128.0M
+150829  1:07:38 InnoDB: Completed initialization of buffer pool
+150829  1:07:38 InnoDB: highest supported file format is Barracuda.
+150829  1:07:40  InnoDB: Waiting for the background threads to start
+150829  1:07:41 InnoDB: 5.5.42 started; log sequence number 1504067461498
+150829  1:07:41 [Note] Server hostname (bind-address): '192.168.100.118'; port: 3306
+150829  1:07:41 [Note]   - '192.168.100.118' resolves to '192.168.100.118';
+150829  1:07:41 [Note] Server socket created on IP: '192.168.100.118'.
+150829  1:07:41 [Warning] 'proxies_priv' entry '@ root@552650-proddb01.edfenergy.lan' ignored in --skip-name-resolve mode.
+150829  1:07:41 [Note] Slave SQL thread initialized, starting replication in log 'bin-log.000028' at position 27818649, relay log '/san/mysql-fs/mysqllogs/relay-log.000037' position: 27818793
+150829  1:07:41 [Note] Event Scheduler: Loaded 0 events
+150829  1:07:41 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.42-log'  socket: '/san/mysql-fs/mysql/mysql.sock'  port: 3306  Distributed by The IUS Community Project
+150829  1:07:42 [ERROR] Slave I/O: error connecting to master 'spire_repl@162.13.55.25:3306' - retry-time: 60  retries: 86400, Error_code: 2003
+150829  1:31:54 [Note] Slave I/O thread: connected to master 'spire_repl@162.13.55.25:3306',replication started in log 'bin-log.000028' at position 27818649
+150829  3:44:07 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150829  3:44:07 [Note] Event Scheduler: Purging the queue. 0 events
+150829  3:44:07 [Note] Error reading relay log event: slave SQL thread was killed
+150829  3:44:07 [ERROR] Error reading packet from server: Lost connection to MySQL server during query ( server_errno=2013)
+150829  3:44:07 [Note] Slave I/O thread killed while reading event
+150829  3:44:07 [Note] Slave I/O thread exiting, read up to log 'bin-log.000029', position 118925000
+150829  3:44:07  InnoDB: Starting shutdown...
+150829  3:44:08  InnoDB: Waiting for 200 pages to be flushed
+150829  3:44:08  InnoDB: Shutdown completed; log sequence number 1505226407757
+150829  3:44:08 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150829 03:44:08 mysqld_safe mysqld from pid file /var/run/cluster/mysql/mysql:mysql-svc.pid ended
